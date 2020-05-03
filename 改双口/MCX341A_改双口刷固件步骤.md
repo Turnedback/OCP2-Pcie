@@ -36,6 +36,20 @@ C:\Program Files\Mellanox\WinMFT
 cd "C:\Program Files\Mellanox\WinMFT"
 ```
 
+查看设备名称
+
+```
+mst status -v
+```
+
+查看当前固件
+
+```
+flint.bat -d {设备名称} q
+eg:
+flint.bat -d mt4099_pci_cr0 q
+```
+
 备份原有固件（可选）
 
 ```
